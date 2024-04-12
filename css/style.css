@@ -13,11 +13,12 @@ body {
     color: var(--color-light);
     font-size: 1.8rem;
     line-height: 1.6;
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-light);
 }
 h1,h2,h3 {
     color: var(--color-light);
     font-weight: 700;
+    margin: 2.5rem 0 1rem 0;
 }
 h2 {
     font-size: 3.2rem;
@@ -29,35 +30,36 @@ p {
 /* root */
 :root{
     --color-primary: #10A9DA;
-    --color-text-primary-dark:  #0E5D80;
-    --color-text-primary-light: #53B9D9;
+    --color-primary-dark:  #0E5D80;
+    --color-primary-light: #53B9D9;
     --color-light: #FFFFFF;
     --color-dark: #F6F6F6;
     --border-radius: 8px;
 }
 /* Modifire */
 .block {
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
 }
 /* Btn */
 .btn {
     outline: 0;
-    color: var(--color-text-primary-dark);
+    color: var(--color-primary-dark);
     background-color: var(--color-light);
     padding: 1.2rem 1.5rem;
     border: 0;
     border-radius: 8px;
     font-weight: bolder;
     font-size: 1.8rem;
+    margin: 2.5rem 0;
 
 }
 .btn--outline{
     background-color: transparent;
-    border: 3px solid var(--color-text-primary-dark);
-    color: var(--color-text-primary-dark);
+    border: 3px solid var(--color-primary-dark);
+    color: var(--color-primary-dark);
 }
 .btn--primary {
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-dark);
     color: var(--color-dark);
 }
 .btn--small{
@@ -74,7 +76,7 @@ p {
     align-items: center;
 }
 .header__menu .btn {
-    background-color: var(--color-text-primary-dark);
+    background-color: var(--color-primary-dark);
 
 }
 .menu__links{
@@ -94,4 +96,13 @@ p {
     background-color: #000;
     margin: 5px 0;
     border-radius: var(--border-radius);
+}
+
+/* Hero image */
+.hero__image {
+    display: flex;
+    justify-content: center;
+}
+.hero__image img{
+    width: 70%;
 }
