@@ -33,9 +33,12 @@ p {
     --color-text-primary-light: #53B9D9;
     --color-light: #FFFFFF;
     --color-dark: #F6F6F6;
-    --border-radius: 14px;
+    --border-radius: 8px;
 }
-
+/* Modifire */
+.block {
+    padding: 2rem 1rem;
+}
 /* Btn */
 .btn {
     outline: 0;
@@ -59,4 +62,36 @@ p {
 }
 .btn--small{
     font-size: 1.5rem;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+.header__menu .btn {
+    background-color: var(--color-text-primary-dark);
+
+}
+.menu__links{
+    display: none;
+}
+.menu__toggler{
+    cursor: pointer;
+    margin-right: 1rem;
+    background-color: var(--color-light);
+    padding: 0.6rem 0.8rem !important;
+    border-radius: var(--border-radius);
+    /* border: 1px solid red; */
+}
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px 0;
+    border-radius: var(--border-radius);
 }
