@@ -3,7 +3,15 @@
     font-weight: 700;
     src: url(/assets/font/Iranian\ Sans.woff) format(woff);
 }
-
+@font-face {
+    font-family: "IRAN Sans Bold";
+    src: url("https://db.onlinewebfonts.com/t/766132c828a90cbecf6f7f4027d12725.eot");
+    src: url("https://db.onlinewebfonts.com/t/766132c828a90cbecf6f7f4027d12725.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/766132c828a90cbecf6f7f4027d12725.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/766132c828a90cbecf6f7f4027d12725.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/766132c828a90cbecf6f7f4027d12725.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/766132c828a90cbecf6f7f4027d12725.svg#IRAN Sans Bold")format("svg");
+}
 body, button {
-    font-family: 'iransSans';
+    font-family: "IRAN Sans Bold";
 }
