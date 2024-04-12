@@ -4,6 +4,6 @@
     src: url(/assets/font/Iranian\ Sans.woff) format(woff);
 }
 
-body {
+body, button {
     font-family: 'iransSans';
 }
