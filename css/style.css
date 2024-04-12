@@ -10,6 +10,26 @@ html {
     font-size: 62.5%;
 }
 body {
-    font-size: 1.6rem;
+    color: var(--color-text-light);
+    font-size: 1.8rem;
     line-height: 1.5;
+}
+h1,h2,h3 {
+    color: var(--color-text-light);
+    font-weight: 700;
+}
+h2 {
+    font-size: 3.2rem;
+}
+p {
+    font-size: 1.8rem;
+}
+
+/* root */
+:root{
+    --color-primary: #10A9DA;
+    --color-text-primary-dark:  #0E5D80;
+    --color-text-primary-light: #53B9D9;
+    --color-text-light: #FFFFFF;
+    --border-radius: 14px;
 }
